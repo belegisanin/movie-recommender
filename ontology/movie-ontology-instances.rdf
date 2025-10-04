@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender/"
+     xml:base="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:movie-recommender="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender">
+        <owl:imports rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Alien -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Alien">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+        <movie-recommender:hasActor rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Sigourney_Weaver"/>
+        <movie-recommender:hasActor rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Tom_Skerritt"/>
+        <movie-recommender:hasComposer rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Jerry_Goldsmith"/>
+        <movie-recommender:hasGenre rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Horror"/>
+        <movie-recommender:hasGenre rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#ScienceFiction"/>
+        <movie-recommender:hasReleasedIn rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#1979"/>
+        <movie-recommender:hasScreenwriter rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Dan_O_Bannon"/>
+        <movie-recommender:hasScreenwriter rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Ronald_Shusett"/>
+        <movie-recommender:isDirectedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Ridley_Scott"/>
+        <movie-recommender:isFilmedByCompany rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Brandywine_Productions"/>
+        <movie-recommender:isInLanguage rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#English"/>
+        <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Gordon_Carroll"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Animated -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Animated">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Back_to_the_Future -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Back_to_the_Future">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+        <movie-recommender:hasActor rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Christopher_Lloyd"/>
+        <movie-recommender:hasActor rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Lea_Thompson"/>
+        <movie-recommender:hasActor rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Michael_J._Fox"/>
+        <movie-recommender:hasMainActor rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Michael_J._Fox"/>
+        <movie-recommender:hasScreenwriter rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Bob_Gale"/>
+        <movie-recommender:isDirectedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Robert_Zemeckis"/>
+        <movie-recommender:isInLanguage rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#English"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Batman_Begins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Batman_Begins">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Bob_Gale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Bob_Gale"/>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Brandywine_Productions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Brandywine_Productions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#ProductionCompany"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Christopher_Lloyd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Christopher_Lloyd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Comedy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Comedy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Dan_O_Bannon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Dan_O_Bannon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Screenwriter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Documentary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Documentary">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Drama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Drama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#English -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#English">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Fahrenheit_911 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Fahrenheit_911">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Fantasy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Fantasy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#French -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#French">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#German -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#German">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Gordon_Carroll -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Gordon_Carroll">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Producer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Horror -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Horror">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Inception -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Inception">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Jaws -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Jaws">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Jerry_Goldsmith -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Jerry_Goldsmith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Composer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Justice_League -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Justice_League">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Lea_Thompson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Lea_Thompson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Michael_J._Fox -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Michael_J._Fox">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Ridley_Scott -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Ridley_Scott">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Robert_Zemeckis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Robert_Zemeckis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Romance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Romance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Ronald_Shusett -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Ronald_Shusett">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Screenwriter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#ScienceFiction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#ScienceFiction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Sigourney_Weaver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Sigourney_Weaver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Spirited_Away -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Spirited_Away">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#The_Dark_Knight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#The_Dark_Knight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#The_Godfather -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#The_Godfather">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#The_Godfather_Part_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#The_Godfather_Part_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#The_Matrix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#The_Matrix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Thriller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Thriller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Tom_Skerritt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Tom_Skerritt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#1979 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#1979">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Year"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
