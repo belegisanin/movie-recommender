@@ -101,9 +101,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasCountyOfOrigin -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasCountryOfOrigin -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasCountyOfOrigin">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasCountryOfOrigin">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Country"/>
     </owl:ObjectProperty>
