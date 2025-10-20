@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender/"
-     xml:base="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender/"
+<rdf:RDF xmlns="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender/"
+     xml:base="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender"/>
     
 
 
@@ -21,253 +21,253 @@
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#awardedAt -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#awardedAt -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#awardedAt">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Award"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Festival"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#awardedAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Award"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Festival"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#awardedInYear -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#awardedInYear -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#awardedInYear">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Award"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Year"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#awardedInYear">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Award"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Year"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#featuresCharacter -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#featuresCharacter -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#featuresCharacter">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Character"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#featuresCharacter">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Character"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#featuresSinger -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#featuresSinger -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#featuresSinger">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Song"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Singer"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#featuresSinger">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Song"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Singer"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#featuresSong -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#featuresSong -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#featuresSong">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Song"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#featuresSong">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Song"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasActor -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasActor -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasActor">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Actor"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasActor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Actor"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasAwardCategory -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasAwardCategory -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasAwardCategory">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#AwardCategory"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasAwardCategory">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#AwardCategory"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasCinematographer -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasCinematographer -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasCinematographer">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Cinematographer"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasCinematographer">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Cinematographer"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasComposer -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasComposer -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasComposer">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Composer"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasComposer">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Composer"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasCountyOfOrigin -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasCountyOfOrigin -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasCountyOfOrigin">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Country"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasCountyOfOrigin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Country"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasDirected -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasDirected -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasDirected">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Director"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasDirected">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Director"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasEditor -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasEditor -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasEditor">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Editor"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasEditor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Editor"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasFilmingLocation -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasFilmingLocation -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasFilmingLocation">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Location"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasFilmingLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Location"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasGenre -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasGenre -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasGenre">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Genre"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasGenre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Genre"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasMainActor -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasMainActor -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasMainActor">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#MainActor"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasMainActor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#MainActor"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasNominationForAward -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasNominationForAward -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasNominationForAward">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Award"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasNominationForAward">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Award"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasProduced -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasProduced -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasProduced">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Producer"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasProduced">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Producer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasRecievedAward -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasRecievedAward -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasRecievedAward">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Award"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasRecievedAward">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Award"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasReleasedIn -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasReleasedIn -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasReleasedIn">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Year"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasReleasedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Year"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasScreenwriter -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasScreenwriter -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasScreenwriter">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Screenwriter"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasScreenwriter">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Screenwriter"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasTheme -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasTheme -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#hasTheme">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Theme"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#hasTheme">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Theme"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isActingIn -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isActingIn -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isActingIn">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Actor"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isActingIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Actor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isComposedBy -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isComposedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isComposedBy">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Song"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Composer"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isComposedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Song"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Composer"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isDirectedBy -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isDirectedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isDirectedBy">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Director"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isDirectedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Director"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isFilmedByCompany -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isFilmedByCompany -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isFilmedByCompany">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#ProductionCompany"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isFilmedByCompany">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#ProductionCompany"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isInLanguage -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isInLanguage -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isInLanguage">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Language"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isInLanguage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Language"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isMainActorIn -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isMainActorIn -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isMainActorIn">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#MainActor"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isMainActorIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#MainActor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isProducedBy -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isProducedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#isProducedBy">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Producer"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#isProducedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Producer"/>
     </owl:ObjectProperty>
     
 
@@ -283,159 +283,159 @@
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Actor -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Actor -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Actor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Award -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Award -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Award"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Award"/>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#AwardCategory -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#AwardCategory -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#AwardCategory"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#AwardCategory"/>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Character -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Character -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Character"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Character"/>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Cinematographer -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Cinematographer -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Cinematographer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Cinematographer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Composer -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Composer -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Composer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Composer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Country -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Country -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Country"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Country"/>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Director -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Director -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Director">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Editor -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Editor -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Editor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Editor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Festival -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Festival -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Festival"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Festival"/>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Genre -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Genre -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Genre"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Genre"/>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Language -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Language -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Language"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Language"/>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Location -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Location -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Location"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Location"/>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#MainActor -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#MainActor -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#MainActor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Actor"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#MainActor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Actor"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Movie"/>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Person -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Person -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Person"/>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Producer -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Producer -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Producer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Producer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#ProductionCompany -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#ProductionCompany -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#ProductionCompany"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#ProductionCompany"/>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Screenwriter -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Screenwriter -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Screenwriter">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Screenwriter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Singer -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Singer -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Singer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Singer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Song -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Song -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Song"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Song"/>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Theme -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Theme -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Theme"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Theme"/>
     
 
 
-    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Year -->
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Year -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Year"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/9/movie-recommender#Year"/>
 </rdf:RDF>
 
 
