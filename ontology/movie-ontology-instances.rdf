@@ -8,10 +8,57 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:movie-recommender="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#"
      xmlns:movie-recommender-ins="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#">
-
     <owl:Ontology rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins">
         <owl:imports rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#hasActingRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#hasActingRating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#hasDirectionRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#hasDirectionRating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#hasScenarioRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#hasScenarioRating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#hasVfxRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#hasVfxRating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
 
 
     <!-- 
@@ -221,6 +268,10 @@
         <movie-recommender:isFilmedByCompany rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Brandywine_Productions"/>
         <movie-recommender:isInLanguage rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#English"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Gordon_Carroll"/>
+        <movie-recommender-ins:hasActingRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</movie-recommender-ins:hasActingRating>
+        <movie-recommender-ins:hasDirectionRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</movie-recommender-ins:hasDirectionRating>
+        <movie-recommender-ins:hasScenarioRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</movie-recommender-ins:hasScenarioRating>
+        <movie-recommender-ins:hasVfxRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</movie-recommender-ins:hasVfxRating>
     </owl:NamedIndividual>
     
 
@@ -304,6 +355,10 @@
         <movie-recommender:isDirectedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Robert_Zemeckis"/>
         <movie-recommender:isFilmedByCompany rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Universal_Pictures"/>
         <movie-recommender:isInLanguage rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#English"/>
+        <movie-recommender-ins:hasActingRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</movie-recommender-ins:hasActingRating>
+        <movie-recommender-ins:hasDirectionRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</movie-recommender-ins:hasDirectionRating>
+        <movie-recommender-ins:hasScenarioRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</movie-recommender-ins:hasScenarioRating>
+        <movie-recommender-ins:hasVfxRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</movie-recommender-ins:hasVfxRating>
     </owl:NamedIndividual>
     
 
@@ -339,6 +394,10 @@
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Benjamin_Melniker"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Larry_Franco"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Michael_E_Uslan"/>
+        <movie-recommender-ins:hasActingRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</movie-recommender-ins:hasActingRating>
+        <movie-recommender-ins:hasDirectionRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</movie-recommender-ins:hasDirectionRating>
+        <movie-recommender-ins:hasScenarioRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</movie-recommender-ins:hasScenarioRating>
+        <movie-recommender-ins:hasVfxRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</movie-recommender-ins:hasVfxRating>
     </owl:NamedIndividual>
     
 
@@ -575,7 +634,12 @@
         <movie-recommender:isInLanguage rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#English"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Jim_Czarnecki"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Michael_Moore"/>
+        <movie-recommender-ins:hasActingRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</movie-recommender-ins:hasActingRating>
+        <movie-recommender-ins:hasDirectionRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</movie-recommender-ins:hasDirectionRating>
+        <movie-recommender-ins:hasScenarioRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</movie-recommender-ins:hasScenarioRating>
+        <movie-recommender-ins:hasVfxRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</movie-recommender-ins:hasVfxRating>
     </owl:NamedIndividual>
+    
 
 
     <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Fantasy -->
@@ -753,6 +817,10 @@
         <movie-recommender:hasScreenwriter rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Christopher_Nolan"/>
         <movie-recommender:isDirectedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Christopher_Nolan"/>
         <movie-recommender:isInLanguage rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#English"/>
+        <movie-recommender-ins:hasActingRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</movie-recommender-ins:hasActingRating>
+        <movie-recommender-ins:hasDirectionRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</movie-recommender-ins:hasDirectionRating>
+        <movie-recommender-ins:hasScenarioRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</movie-recommender-ins:hasScenarioRating>
+        <movie-recommender-ins:hasVfxRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</movie-recommender-ins:hasVfxRating>
     </owl:NamedIndividual>
     
 
@@ -808,6 +876,10 @@
         <movie-recommender:isInLanguage rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#English"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#David_Brown"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Richard_D_Zanuck"/>
+        <movie-recommender-ins:hasActingRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</movie-recommender-ins:hasActingRating>
+        <movie-recommender-ins:hasDirectionRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</movie-recommender-ins:hasDirectionRating>
+        <movie-recommender-ins:hasScenarioRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</movie-recommender-ins:hasScenarioRating>
+        <movie-recommender-ins:hasVfxRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</movie-recommender-ins:hasVfxRating>
     </owl:NamedIndividual>
     
 
@@ -904,6 +976,10 @@
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Benjamin_Melniker"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Christopher_Nolan"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Jon_Berg"/>
+        <movie-recommender-ins:hasActingRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</movie-recommender-ins:hasActingRating>
+        <movie-recommender-ins:hasDirectionRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</movie-recommender-ins:hasDirectionRating>
+        <movie-recommender-ins:hasScenarioRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</movie-recommender-ins:hasScenarioRating>
+        <movie-recommender-ins:hasVfxRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</movie-recommender-ins:hasVfxRating>
     </owl:NamedIndividual>
     
 
@@ -1231,6 +1307,10 @@
         <movie-recommender:isDirectedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Hayao_Miyazaki"/>
         <movie-recommender:isInLanguage rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Japanese"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Hironori_Aihara"/>
+        <movie-recommender-ins:hasActingRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</movie-recommender-ins:hasActingRating>
+        <movie-recommender-ins:hasDirectionRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</movie-recommender-ins:hasDirectionRating>
+        <movie-recommender-ins:hasScenarioRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</movie-recommender-ins:hasScenarioRating>
+        <movie-recommender-ins:hasVfxRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</movie-recommender-ins:hasVfxRating>
     </owl:NamedIndividual>
     
 
@@ -1291,6 +1371,10 @@
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Benjamin_Melniker"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Christopher_Nolan"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Kevin_de_la_Noy"/>
+        <movie-recommender-ins:hasActingRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</movie-recommender-ins:hasActingRating>
+        <movie-recommender-ins:hasDirectionRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</movie-recommender-ins:hasDirectionRating>
+        <movie-recommender-ins:hasScenarioRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</movie-recommender-ins:hasScenarioRating>
+        <movie-recommender-ins:hasVfxRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</movie-recommender-ins:hasVfxRating>
     </owl:NamedIndividual>
     
 
@@ -1316,7 +1400,12 @@
         <movie-recommender:isDirectedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Francis_Ford_Coppola"/>
         <movie-recommender:isInLanguage rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#English"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Albert_S_Ruddy"/>
+        <movie-recommender-ins:hasActingRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</movie-recommender-ins:hasActingRating>
+        <movie-recommender-ins:hasDirectionRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</movie-recommender-ins:hasDirectionRating>
+        <movie-recommender-ins:hasScenarioRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</movie-recommender-ins:hasScenarioRating>
+        <movie-recommender-ins:hasVfxRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</movie-recommender-ins:hasVfxRating>
     </owl:NamedIndividual>
+    
 
 
     <!-- http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#The_Godfather_Part_II -->
@@ -1340,6 +1429,10 @@
         <movie-recommender:isInLanguage rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#English"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Francis_Ford_Coppola"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Gray_Frederickson"/>
+        <movie-recommender-ins:hasActingRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</movie-recommender-ins:hasActingRating>
+        <movie-recommender-ins:hasDirectionRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</movie-recommender-ins:hasDirectionRating>
+        <movie-recommender-ins:hasScenarioRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</movie-recommender-ins:hasScenarioRating>
+        <movie-recommender-ins:hasVfxRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.5</movie-recommender-ins:hasVfxRating>
     </owl:NamedIndividual>
     
 
@@ -1365,6 +1458,10 @@
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Andrew_Mason"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Bruce_Berman"/>
         <movie-recommender:isProducedBy rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Erwin_Stoff"/>
+        <movie-recommender-ins:hasActingRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.5</movie-recommender-ins:hasActingRating>
+        <movie-recommender-ins:hasDirectionRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</movie-recommender-ins:hasDirectionRating>
+        <movie-recommender-ins:hasScenarioRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.5</movie-recommender-ins:hasScenarioRating>
+        <movie-recommender-ins:hasVfxRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.5</movie-recommender-ins:hasVfxRating>
     </owl:NamedIndividual>
     
 
