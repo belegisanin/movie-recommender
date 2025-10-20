@@ -1421,7 +1421,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Visual_Effects">
         <rdf:type rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender#AwardCategory"/>
-        <movie-recommender1:hasAwardCategory rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Visual_Effects"/>
+        <movie-recommender:hasAwardCategory rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Visual_Effects"/>
     </owl:NamedIndividual>
     
 
