@@ -3,7 +3,6 @@ package org.belegisanin.cbr;
 import es.ucm.fdi.gaia.jcolibri.cbrcore.CBRCase;
 import es.ucm.fdi.gaia.jcolibri.cbrcore.CaseBaseFilter;
 import es.ucm.fdi.gaia.jcolibri.cbrcore.Connector;
-import es.ucm.fdi.gaia.jcolibri.exception.InitializingException;
 import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -14,8 +13,8 @@ import java.util.*;
 
 public class MovieConnector implements Connector {
 
-    private Map<String, MovieDescription> movies = new HashMap<String, MovieDescription>();
-    private Collection<CBRCase> cases = new ArrayList<CBRCase>();
+    private final Map<String, MovieDescription> movies = new HashMap<>();
+    private final Collection<CBRCase> cases = new ArrayList<>();
 
     public MovieConnector() {
         loadMoviesFromRdf();
@@ -36,7 +35,7 @@ public class MovieConnector implements Connector {
                 addMovieDescription(sol);
             }
 
-            movies.forEach((key, md) -> {
+            movies.forEach((_, md) -> {
                 CBRCase c = new CBRCase();
                 c.setDescription(md);
                 cases.add(c);
@@ -70,7 +69,7 @@ public class MovieConnector implements Connector {
     }
 
     @Override
-    public void initFromXMLfile(URL url) throws InitializingException {}
+    public void initFromXMLfile(URL url) {}
 
     @Override
     public void close() {}
@@ -107,7 +106,6 @@ public class MovieConnector implements Connector {
         }
         """;
 
-        ParameterizedSparqlString pss = new ParameterizedSparqlString(queryTemplate);
-        return pss;
+        return new ParameterizedSparqlString(queryTemplate);
     }
 }

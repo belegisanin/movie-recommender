@@ -53,8 +53,7 @@ public class SparqlQueryRecommender {
             ORDER BY ?movie
         """;
 
-        ParameterizedSparqlString pss = new ParameterizedSparqlString(queryTemplate);
-        return pss;
+        return new ParameterizedSparqlString(queryTemplate);
     }
 
 }
