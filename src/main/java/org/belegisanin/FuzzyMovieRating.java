@@ -33,7 +33,7 @@ public class FuzzyMovieRating {
                 double scenario = sol.contains("scenario") ? sol.getLiteral("scenario").getDouble() : 0.0;
                 double vfx = sol.contains("vfx") ? sol.getLiteral("vfx").getDouble() : 0.0;
 
-                FIS fis = FIS.load(filename, true);;
+                FIS fis = FIS.load(filename, true);
 
                 fis.setVariable("direction", direction);
                 fis.setVariable("acting", acting);
@@ -68,8 +68,7 @@ public class FuzzyMovieRating {
             ORDER BY ?movie
         """;
 
-        ParameterizedSparqlString pss = new ParameterizedSparqlString(queryTemplate);
-        return pss;
+        return new ParameterizedSparqlString(queryTemplate);
     }
 
     private static String getLinguisticTerm(Variable variable) {
