@@ -1421,6 +1421,8 @@
         <movie-recommender:hasComposer rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Nino_Rota"/>
         <movie-recommender:hasCountryOfOrigin rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#USA"/>
         <movie-recommender:hasEditor rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Peter_Zinner"/>
+        <movie-recommender:hasGenre rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Crime"/>
+        <movie-recommender:hasGenre rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Drama"/>
         <movie-recommender:hasMainActor rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Al_Pacino"/>
         <movie-recommender:hasMainActor rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#Robert_De_Niro"/>
         <movie-recommender:hasReleasedIn rdf:resource="http://www.semanticweb.org/beleg/ontologies/2025/8/movie-recommender-ins#1974"/>
